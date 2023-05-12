@@ -1,9 +1,8 @@
 import { createStore } from "redux";
-import TodosReducer from "./reducer/TodosReducer";
-
+import TodoReducer from "./reducer/TodoReducer";
 
 const store = createStore(
-   TodosReducer , /* preloadedState, */
+   TodoReducer, /* preloadedState, */
    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  );
-  export default store
+ );
+ export default store
